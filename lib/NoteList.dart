@@ -25,6 +25,7 @@ class _NoteListPageState extends State<NoteListPage> {
       floatingActionButton: FloatingActionButton(
 		    onPressed: () {
 		      debugPrint('FAB clicked');
+          Navigator.of(context).pushReplacementNamed('/NoteDetail');
 		    },
 
 		    tooltip: 'Add Note',
@@ -56,6 +57,7 @@ class _NoteListPageState extends State<NoteListPage> {
 						trailing: Icon(Icons.delete, color: Colors.grey,),
 						onTap: () {
 							debugPrint("ListTile Tapped");
+              Navigator.of(context).pushReplacementNamed('/NoteDetail');
 						},
           ),
         );

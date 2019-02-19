@@ -12,7 +12,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return new Timer(_duration, navigationPage);
   }
   void navigationPage() {
-    Navigator.of(context).pushReplacementNamed('/NoteDetail');
+    Navigator.of(context).pushReplacementNamed('/NoteList');
   }
   @override
   void initState() {
