@@ -47,5 +47,7 @@ class Note {
     map['description'] =_description;
     map['prioriry'] =_priority;
     map['date'] =_date;
+
+    return map;
   } 
 }
