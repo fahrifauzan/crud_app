@@ -3,13 +3,23 @@ import 'package:flutter/material.dart';
 import 'package:app_crud/models/note.dart';
 import 'package:app_crud/utils/database_helper.dart';
 import 'package:intl/intl.dart';
+
 class NoteDetailsPage extends StatefulWidget {
+  // final String appBarTitle;
+	// final Note note;
+
+	// NoteDetail(this. note, this.appBarTitle);
   @override
-  _NoteDetailsPageState createState() => _NoteDetailsPageState();
+   State<StatefulWidget> createState() {
+
+    // return NoteDetailState(this.note, this.appBarTitle);
+  }
 }
 
-class _NoteDetailsPageState extends State<NoteDetailsPage> {
+class NoteDetailState extends State<NoteDetailsPage> {
   static var _priorities = ['High', 'Low'];
+
+  
 
 	TextEditingController titleController = TextEditingController();
 	TextEditingController descriptionController = TextEditingController();
