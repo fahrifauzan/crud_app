@@ -53,7 +53,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 padding: EdgeInsets.only(top: 0.0),
               ),
               Text (
-                'To Do List App',
+                'To Do List App by Fahri',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18.0,

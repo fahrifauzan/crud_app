@@ -1,5 +1,8 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
-
+import 'package:app_crud/models/note.dart';
+import 'package:app_crud/utils/database_helper.dart';
+import 'package:intl/intl.dart';
 class NoteDetailsPage extends StatefulWidget {
   @override
   _NoteDetailsPageState createState() => _NoteDetailsPageState();
